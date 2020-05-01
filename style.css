@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    page-break-after: auto;
+    padding: 0;
+}
+body {
+    background-attachment: fixed;
+    font-family: fantasy;
+    border: 1px transparent solid;
+    font-size: 17px;
+    background: rgb(78, 78, 77);
+}
+.container {
+    border: 5px gray solid;
+    padding: 15px;
+    border-radius: 45px;
+    transform-style: preserve-3d;
+}
+.content {
+    float: left;
+    border-radius: 45px;
+    border: 12px 12px 12px 12px;
+    text-align: center;
+    background-blend-mode: darken;
+    -webkit-text-fill-color: white;
+}
+.image {
+    float: right;
+}
+.title {
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-fill-color: white;
+}
